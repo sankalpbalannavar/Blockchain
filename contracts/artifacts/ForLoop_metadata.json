@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "answer",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "loop",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/loops.sol": "ForLoop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/loops.sol": {
+			"keccak256": "0xe122d7646d5499531cb5a4ba2352c18f201b6c6561a407e6913f15fc54ebb6cf",
+			"urls": [
+				"bzz-raw://432d8c54e9fc68a3de25caa42ff61145b1e9cb1373ad85a92d279e6960a88696",
+				"dweb:/ipfs/QmVXvQoWQDkF6ANKsc5josJKSs5ZXpgJA5p5DVAfRndmmg"
+			]
+		}
+	},
+	"version": 1
+}

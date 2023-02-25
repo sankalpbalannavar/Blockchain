@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "AverageMarksAll",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "AvgmarkStudent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "m1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "m2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "m3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sem",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					}
+				],
+				"name": "setStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/smart_contract.sol": "StdArray"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/smart_contract.sol": {
+			"keccak256": "0xb1820d7933a7c4aadfc2d4e4a9d691df10cbeaa511b1e435c814d24915352f07",
+			"urls": [
+				"bzz-raw://32152fba11cd3399eba852132977e4552956cca0d844947bff12df457e2891cf",
+				"dweb:/ipfs/QmajDmM5F2kmmRCrwSb8BoDaQfMkwWev3jBqizk76fgDJf"
+			]
+		}
+	},
+	"version": 1
+}
